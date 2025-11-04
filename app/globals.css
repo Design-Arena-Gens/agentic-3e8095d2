@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-body antialiased;
+}
+
+a {
+  @apply text-primary-600 underline-offset-2 transition hover:text-primary-700;
+}
+
+.container-hero {
+  background: radial-gradient(circle at top left, rgba(15, 158, 117, 0.2), transparent 55%),
+    radial-gradient(circle at top right, rgba(5, 98, 76, 0.15), transparent 45%);
+}
